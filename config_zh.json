@@ -1,0 +1,39 @@
+{
+    "Thread_pool_sum": 5,
+    "AUDIO_RATE": 16000,
+    "AUDIO_CHANNELS": 1,
+    "CHUNK": 1024,
+    "recording_active": 1,
+    "StartRecoder": 1,
+    "AUDIO_SOURCE": 2,
+    "VAD_MODE": 0,
+    "GPU": 1,
+    "CAM_UPDATE": 6,
+    "OUTPUT_DIR": "./output/audio/",
+    "text_output_dir": "./output/text/",
+    "NO_SPEECH_THRESHOLD": 1.15,
+    "Save_Audio_file": 1,
+    "Save_recognize_file": 1,
+    "Save_translate_file": 1,
+    "NOISE_MUL": 0,
+    "flag_KWS_used": 0,
+    "flag_sv_used": 0,
+    "CAM_THRESHOLD": 0.2,
+    "thred_sv": 0.35,
+    "set_KWS": "STOP",
+    "LANGUAGES": "zh",
+    "ASR_OUTPUT": 0,
+    "PROCESS_OUTPUT": 1,
+    "set_SV_enroll": "None",
+    "API": "",
+    "recog_model_path": "./model/recognize_small",
+    "cam_model_path":"./model/cam_model",
+    "trans_prompt": {
+        "role": "system",
+        "content": "你是一个文本修正助手，将文本中所有非中文语言都翻译成中文，输入的文本可能存在语法错误和单词拼写错误请适度纠正，然后直接输出修正后的中文，不要输出其他无关的文本。"
+    },
+    "abstract_prompt": {
+        "role": "system",
+        "content": "你是一个文本大纲助手，输入的文本可能存在语法错误和单词拼写错误，请根据上下文适度纠正，并且根据每个说话人进行每个人独自的大致思想概括，然后用中文输出文本内容的大纲概括，不要输出其他无关的文本。"
+    }
+}
