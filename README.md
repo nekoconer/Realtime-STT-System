@@ -31,12 +31,13 @@ Realtime_STT_System 是一个先进的语音转文本（Speech-to-Text）系统�
 ### 安装说明
 1. 克隆项目仓库：
    ```
-   git clone https://github.com/nekoconer/STT.git
-   cd STT
+   git clone https://github.com/nekoconer/Realtime-STT-System.git
+   cd Realtime-STT-System
    ```
-2. 安装依赖（请根据 requirement.txt 更新）：
+2. 使用 Conda 创建并安装环境：
    ```
-   pip install -r requirement.txt
+   conda env create -f environment.yml
+   conda activate LLM
    ```
 3. 下载模型文件到 `./model/` 目录。
 4. 配置 `config_zh.json` 文件，设置 API 密钥等参数。
@@ -86,12 +87,13 @@ Realtime_STT_System は、リアルタイム音声認識、翻訳、話者識別
 ### インストール説明
 1. リポジトリをクローン：
    ```
-   git clone https://github.com/nekoconer/STT.git
-   cd STT
+   git clone https://github.com/nekoconer/Realtime-STT-System.git
+   cd Realtime-STT-System
    ```
-2. 依存関係をインストール（requirement.txt に従って更新）：
+2. Conda を使用して環境を作成しインストール：
    ```
-   pip install -r requirement.txt
+   conda env create -f environment.yml
+   conda activate LLM
    ```
 3. モデルファイルを `./model/` ディレクトリにダウンロード。
 4. `config_zh.json` ファイルを設定し、API キーなどのパラメータを設定。
@@ -141,12 +143,13 @@ Realtime_STT_System is an advanced Speech-to-Text system that supports real-time
 ### Installation Instructions
 1. Clone the repository:
    ```
-   git clone https://github.com/nekoconer/STT.git
-   cd STT
+   git clone https://github.com/nekoconer/Realtime-STT-System.git
+   cd Realtime-STT-System
    ```
-2. Install dependencies (update according to requirement.txt):
+2. Create and install the environment using Conda:
    ```
-   pip install -r requirement.txt
+   conda env create -f environment.yml
+   conda activate LLM
    ```
 3. Download model files to the `./model/` directory.
 4. Configure the `config_zh.json` file, setting API keys and other parameters.
